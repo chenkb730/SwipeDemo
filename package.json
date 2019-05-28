@@ -1,23 +1,29 @@
 {
-  "name": "SwipeDemo",
+  "name": "react-native-pullscroview",
   "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+  "description": "pullScroview",
+  "main": "index.js",
+  "author": {
+    "name": "Alexander Pantyukhov",
+    "email": "alwxndr@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "mobile"
+  ],
+  "homepage": "https://github.com/chenkb730/SwipeDemo",
+  "bugs": {
+    "url": "https://github.com/chenkb730/SwipeDemo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenkb730/SwipeDemo.git"
   },
   "dependencies": {
-    "react": "^16.3.0-alpha.1",
-    "react-native": "0.54.2",
-    "react-native-swipe-list-view": "^1.0.6"
-  },
-  "devDependencies": {
-    "babel-jest": "22.4.1",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "22.4.2",
-    "react-test-renderer": "^16.3.0-alpha.1"
-  },
-  "jest": {
-    "preset": "react-native"
+    "prop-types": "^15.5.10"
   }
 }
